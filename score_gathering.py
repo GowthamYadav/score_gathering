@@ -106,4 +106,4 @@ tree.insert(4)
 
 #print tree
 print(tree.print())
-#should print 4:2,2:1,5:2,1:1,6:1,None
+#should print 4:2,2:1,5:2,1:1,,,6:1
