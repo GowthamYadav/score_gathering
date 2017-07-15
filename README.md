@@ -13,8 +13,8 @@ That would result in the tree with the following structure where each node is re
      / \
    2:1 5:2
    /     \
- 1:1     6:1
- 
+ 1:1     6:1    
+   
 When serialized this tree is represented by the string: 4:2,2:1,5:2,1:1,,,6:1
 
 Each score:count entry is delimited with a comma. Empty children with a sibling do not output anything, but retain the comma delimiter.
