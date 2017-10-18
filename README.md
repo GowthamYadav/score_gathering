@@ -8,10 +8,10 @@ Your job is to write a method that will take a stream of integer scores, and put
 For example, if you were given the stream of scores: [4, 2, 5, 5, 6, 1, 4].
 
 That would result in the tree with the following structure where each node is represented as score:count.
-      
-      ![sketch2](https://user-images.githubusercontent.com/22488931/31709858-e4bbf6c4-b410-11e7-8c07-dca24a3bb077.png)
-
-
+<p>
+<img src='https://user-images.githubusercontent.com/22488931/31709858-e4bbf6c4-b410-11e7-8c07-dca24a3bb077.png' align="middle" >
+</p>      
+      
 When serialized this tree is represented by the string: 4:2,2:1,5:2,1:1,,,6:1
 
 Each score:count entry is delimited with a comma. Empty children with a sibling do not output anything, but retain the comma delimiter.
